@@ -1,0 +1,24 @@
+body{
+    background-image: url("Image/Fondo2.png");
+    background-size: 2150px;
+    background-attachment: fixed;
+    overflow: scroll; 
+    /*Buscar background-attachment o scroll para dejar fijo el fondo y desplazar solo las imágenes*/
+    
+}
+/*header{
+    opacity: 0.8;
+    text-align: center;
+    background-image: url(https://timelinecovers.pro/facebook-cover/download/breaking-bad-aaron-paul-bryan-cranston-jesse-pinkman-walter-white-facebook-cover.jpg);
+    background-size: 1075px;
+    outline: thick double #043b1f;
+    border-radius: 2rem;
+}*/
+
+img {
+    display: block;
+    width: 45%;
+    margin: auto;
+    border-radius: 2rem;
+    outline: 1 rem #043b1f;
+  }
