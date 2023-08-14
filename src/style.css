@@ -1,4 +1,10 @@
-body{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    body{
     background-image: url("Image/Fondo2.png");
     background-size: 2150px;
     background-attachment: fixed;
@@ -6,6 +12,53 @@ body{
     /*Buscar background-attachment o scroll para dejar fijo el fondo y desplazar solo las imágenes*/
     
 }
+
+header {
+    padding:70px
+}
+
+
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    padding: 20px;
+}
+
+.character-card{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #043b1f;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    /*height: auto;
+    object-fit: flex;
+    display:flex;
+    margin-bottom:10px;*/
+}
+
+.character-card > img{
+    width: 100%; /* Cambia el ancho al 100% para que la imagen ocupe todo el ancho de la tarjeta */
+    /*margin: auto;
+    border-radius: 2rem;
+    outline: 1rem #043b1f;
+    height: auto;
+    object-fit: cover;
+    margin-bottom:10px;
+    display: flex;*/
+}
+
+.character-card > h3{
+    color: black;
+    text-align: center;
+    font-size:1rem;
+    padding: 5px 5px;
+    /*background-color: #f7f3e2;*/
+    background-image: url("https://img.freepik.com/fotos-premium/resumen-movimiento-humo-verde-sobre-blanco_55716-2334.jpg?w=996");
+    opacity: 0.7;
+
+}
+
 /*header{
     opacity: 0.8;
     text-align: center;
@@ -15,7 +68,7 @@ body{
     border-radius: 2rem;
 }*/
 
-img {
+/*img {
     display: block;
     width: 45%;
     margin: auto;
