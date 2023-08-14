@@ -5,7 +5,7 @@
 }
 
     body{
-    background-image: url("Image/Fondo2.png");
+    background-image: url("Image/Fondo3.png");
     background-size: 2150px;
     background-attachment: fixed;
     overflow: scroll; 
@@ -14,7 +14,7 @@
 }
 
 header {
-    padding:70px
+    padding:100px
 }
 
 
@@ -27,7 +27,7 @@ main{
 }
 
 .character-card{
-    width: 100%;
+    width: 75%;
     border-radius: 5px;
     border: 2px solid #043b1f;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
@@ -51,7 +51,7 @@ main{
 .character-card > h3{
     color: black;
     text-align: center;
-    font-size:1rem;
+    font-size:1.5rem;
     padding: 5px 5px;
     /*background-color: #f7f3e2;*/
     background-image: url("https://img.freepik.com/fotos-premium/resumen-movimiento-humo-verde-sobre-blanco_55716-2334.jpg?w=996");
