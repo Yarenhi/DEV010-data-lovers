@@ -1,27 +1,92 @@
-import { example } from './data.js';
+
 import data from './data/breakingbad/breakingbad.js';
 
-async function getData(){
-// import data from './data/lol/lol.js';
-// import data from './data/rickandmorty/rickandmorty.js';
-const main= document.querySelector('main')
-/*console.log(example, data);*/
-data.breaking_bad.forEach(p => {
-/*Codigo para crear la tarjeta*/
-const characterCard =document.createElement('div')
-characterCard.className ="character-card"
-const img = document.createElement('img')
-img.src= p.img
-const titulo= document.createElement('h3')
-titulo.textContent =  p.name
-characterCard.append(img, titulo)
-main.append(characterCard)
+function getData(data) {
 
-}); /*array va o no*/
+  const main = document.querySelector('main')
+  main.innerHTML = ''
 
+  data.forEach(p => {
+    /*Codigo para crear la tarjeta*/
+    const characterCard = document.createElement('div')
+    characterCard.className = "character-card"
+    const img = document.createElement('img')
+    img.src = p.img
+    const titulo = document.createElement('h3')
+    titulo.textContent = p.name
+    characterCard.append(img, titulo)
+    main.append(characterCard)
+
+  });
 }
 
-getData()
+getData(data.breaking_bad) 
+
+const btnOrdenarAZ = document.querySelector('#btnOrdenarAZ');
+btnOrdenarAZ.addEventListener("click", ordenarAZ); 
+
+function ordenarAZ() {
+  const ordenarAZdata = data.breaking_bad.sort((a, b) => a.name.localeCompare(b.name)); 
+  getData(ordenarAZdata)
+}
+
+const btnOrdenarZA = document.querySelector('#btnOrdenarZA');
+btnOrdenarZA.addEventListener("click", ordenarZA); 
+
+function ordenarZA() {
+  const ordenarZAdata = data.breaking_bad.slice().sort((a, b) => b.name.localeCompare(a.name));
+  getData(ordenarZAdata)
+}
+
+const selectorTemporada= document.querySelector('#selectorTemporada');
+selectorTemporada.addEventListener("change", Temporada); 
+
+function Temporada() {
+  const temporadaAFiltrar = parseInt(selectorTemporada.value, 10);
+// La función parseInt() en JavaScript se utiliza para analizar una cadena y extraer un número entero de ella.
+// La función parseInt() toma dos argumentos:
+// El primer argumento es la cadena que se va a convertir en un número.
+// El segundo argumento (opcional) es la base numérica en la que se debe interpretar la cadena. En este caso, se usa 10 para interpretar la cadena en base decimal.
+// Por ejemplo, si el valor seleccionado en selectorTemporada es "1", que es una cadena, al utilizar parseInt(selectorTemporada.value, 10), el resultado sería 1 como un número entero.
+  console.log(temporadaAFiltrar);
+  const filtroTemporada = data.breaking_bad.filter((personaje)=> personaje.appearance.includes(temporadaAFiltrar));
+  console.log(filtroTemporada);
+  getData(filtroTemporada)
+}
+
+
+//Crear función de filtro por apodo y personaje y función filtro Actor/Actriz)
+
+
+
+//resultadoTemporada.innerHTML ="";
+//filtroTemporada.forEach(personaje => { const elemento = document.createElement('div');
+//elemento.textContent = `${personaje.name} - Temporada: ${personaje.appearance.join(',')}`;
+//resultadoTemporada.appendChild(elemento);});
+//}
+
+
+//};
+// ctrl + }]
+
+// const selectorTemporada = document.querySelector('#selectorTemporada');
+// const resultadoTemporada = document.querySelector('#resultadoTemporada');
+
+// selectorTemporada.addEventListener("change", () => {
+//   const appearance = parseInt(selectorTemporada.value);
+//   const personajesEnTemporada = getCharactersBySeason(data, appearance);
+//   resultadoTemporada.textContent = JSON.stringify(personajesEnTemporada, null, 2);
+// });
+
+// function getCharactersBySeason(data, appearance) {
+//   const characters = data["breaking_bad"];
+
+//   const personajesEnTemporada = characters.filter(character =>
+//     character.appearance.includes(appearance)
+//   );
+//   console.log(personajesEnTemporada);
+//   return personajesEnTemporada;
+// }
 
 
 
