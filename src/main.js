@@ -1,21 +1,22 @@
-import { example } from './data.js';
+import { filtroTemporada } from './data.js';
 import data from './data/breakingbad/breakingbad.js';
-
-async function getData(){
+console.log (filtroTemporada(data.breaking_bad));
+function getData(){
 // import data from './data/lol/lol.js';
 // import data from './data/rickandmorty/rickandmorty.js';
 const main= document.querySelector('main')
 /*console.log(example, data);*/
+//Constante para selector de temporada
 data.breaking_bad.forEach(p => {
 /*Codigo para crear la tarjeta*/
-const characterCard =document.createElement('div')
-characterCard.className ="character-card"
-const img = document.createElement('img')
-img.src= p.img
-const titulo= document.createElement('h3')
-titulo.textContent =  p.name
-characterCard.append(img, titulo)
-main.append(characterCard)
+const characterCard =document.createElement('div');
+characterCard.className ="character-card";
+const img = document.createElement('img');
+img.src= p.img;
+const titulo= document.createElement('h3');
+titulo.textContent =  p.name;
+characterCard.append(img, titulo);
+main.append(characterCard);
 
 }); /*array va o no*/
 
