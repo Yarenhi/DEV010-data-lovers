@@ -1,7 +1,12 @@
 
 import data from './data/breakingbad/breakingbad.js';
+import { ordenarAZ, ordenarZA, temporada } from './data.js';
 
-function getData(data) {
+// export function getData(data) {
+//     return data.map(p => ({ name: p.name, img: p.img }));
+//   }
+
+export function getData(data) {
 
   const main = document.querySelector('main')
   main.innerHTML = ''
@@ -16,48 +21,37 @@ function getData(data) {
     titulo.textContent = p.name
     characterCard.append(img, titulo)
     main.append(characterCard)
-
+    return data.map(p => ({ name: p.name, img: p.img }))
   });
 }
 
 getData(data.breaking_bad) 
 
 const btnOrdenarAZ = document.querySelector('#btnOrdenarAZ');
-btnOrdenarAZ.addEventListener("click", ordenarAZ); 
-
-function ordenarAZ() {
-  const ordenarAZdata = data.breaking_bad.sort((a, b) => a.name.localeCompare(b.name)); 
-  getData(ordenarAZdata)
-}
+btnOrdenarAZ.addEventListener("click", ()=>{
+// llamar
+//  console.log(ordenarAZ);
+// invocacion
+// console.log(ordenarAZ(data.breaking_bad))
+  const ejecutarOrdenarAZ = ordenarAZ(data.breaking_bad)
+  getData(ejecutarOrdenarAZ)
+}); 
 
 const btnOrdenarZA = document.querySelector('#btnOrdenarZA');
-btnOrdenarZA.addEventListener("click", ordenarZA); 
+btnOrdenarZA.addEventListener("click", ()=>{
+  const ejecutarOrdenarZA = ordenarZA(data.breaking_bad)
+  getData(ejecutarOrdenarZA)
+}); 
 
-function ordenarZA() {
-  const ordenarZAdata = data.breaking_bad.slice().sort((a, b) => b.name.localeCompare(a.name));
-  getData(ordenarZAdata)
-}
-
-const selectorTemporada= document.querySelector('#selectorTemporada');
-selectorTemporada.addEventListener("change", Temporada); 
-
-function Temporada() {
-  const temporadaAFiltrar = parseInt(selectorTemporada.value, 10);
-// La función parseInt() en JavaScript se utiliza para analizar una cadena y extraer un número entero de ella.
-// La función parseInt() toma dos argumentos:
-// El primer argumento es la cadena que se va a convertir en un número.
-// El segundo argumento (opcional) es la base numérica en la que se debe interpretar la cadena. En este caso, se usa 10 para interpretar la cadena en base decimal.
-// Por ejemplo, si el valor seleccionado en selectorTemporada es "1", que es una cadena, al utilizar parseInt(selectorTemporada.value, 10), el resultado sería 1 como un número entero.
-  console.log(temporadaAFiltrar);
-  const filtroTemporada = data.breaking_bad.filter((personaje)=> personaje.appearance.includes(temporadaAFiltrar));
-  console.log(filtroTemporada);
-  getData(filtroTemporada)
-}
-
+export const selectorTemporada= document.querySelector('#selectorTemporada');
+selectorTemporada.addEventListener("change", ()=>{
+  const ejecutarFiltarTemporada = temporada(data.breaking_bad)
+  getData(ejecutarFiltarTemporada)
+});
 
 //Crear función de filtro por apodo y personaje y función filtro Actor/Actriz)
 
-
+export {data};
 
 //resultadoTemporada.innerHTML ="";
 //filtroTemporada.forEach(personaje => { const elemento = document.createElement('div');
