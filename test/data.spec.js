@@ -1,4 +1,4 @@
-import ordenarAZ from '../src/data.js';
+// import ordenarAZ from '../src/data.js';
 
 // import { getData } from '../src/main.js';
 
