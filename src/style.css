@@ -246,4 +246,40 @@ span{
 }
 input.checkbox:active{
   top: 2px;
+
 } */
+}
+span{
+  font-size:1.3rem; 
+  font-weight: bold;
+  color:#f7f3e2;
+  background: rgba(7, 57, 13, 0.6);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+/* Media Queries para tabletas y celulares */
+@media screen and (max-width: 768px) {
+  body {
+      background-size: 768px; /* Ajustar el fondo para que cubra toda la pantalla */
+  }
+
+  header {
+      padding: 5px; /* Reduce el padding en pantallas pequeñas */
+      font-size: 1.5rem; /* Reduce el tamaño de fuente en pantallas pequeñas */
+      color:rgb(0, 0, 0);
+  }
+
+  main {
+      grid-template-columns: 1fr 1fr; /* Cambia a 2 columnas en pantallas pequeñas */
+      gap: 20px; /* Reduce el espacio entre elementos en pantallas pequeñas */
+      padding: 20px; /* Reduce el padding en pantallas pequeñas */
+  }
+
+  .character-card > img {
+      height: auto; /* Ajusta la altura de la imagen proporcionalmente */
+  }
+
+  
+}
+} */
+
