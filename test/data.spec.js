@@ -1,4 +1,4 @@
-import ordenarAZ from '../src/data.js';
+import { ordenarAZ } from "../src/data";
 
 // import { getData } from '../src/main.js';
 
@@ -58,15 +58,20 @@ import ordenarAZ from '../src/data.js';
 // import { filtroTemporada } from './data.js'; import data from './data/breakingbad/breakingbad.js'; console.log (filtroTemporada(data.breaking_bad));
 
 
-// describe('ordenarAZ', () => {
-//   it('is a function', () => {
-//     expect(typeof example).toBe('function');
-//   });
+describe('ordenarAZ', () => {
+  it('is a function', () => {
+    expect(typeof ordenarAZ).toBe('function');
+  });
 
-//   it('returns `example`', () => {
-//     expect(example()).toBe('example');
-//   });
-// });
+  it('returns `example`', () => {
+    const data=[
+      { name: 'C' },
+      { name: 'A' },
+      { name: 'B' },
+    ];
+    expect(ordenarAZ(data).length).toBe(3);
+  });
+});
 
 
 // describe('anotherExample', () => {

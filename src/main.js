@@ -2,10 +2,6 @@
 import data from './data/breakingbad/breakingbad.js';
 import { ordenarAZ, ordenarZA, temporada } from './data.js';
 
-// export function getData(data) {
-//     return data.map(p => ({ name: p.name, img: p.img }));
-//   }
-
 export function getData(data) {
 
   const main = document.querySelector('main')
@@ -52,6 +48,27 @@ selectorTemporada.addEventListener("change", ()=>{
 //Crear función de filtro por apodo y personaje y función filtro Actor/Actriz)
 
 export {data};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export function getData(data) {
+//     return data.map(p => ({ name: p.name, img: p.img }));
+//   }
 
 //resultadoTemporada.innerHTML ="";
 //filtroTemporada.forEach(personaje => { const elemento = document.createElement('div');

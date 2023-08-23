@@ -24,6 +24,17 @@ export function temporada(data) {
   return filtroTemporada
 }
 
+
+
+
+
+
+
+
+
+
+
+
 // export const filtroTemporada = (array) => {
 //   return array.filter(elemento=>elemento.apperance);
 // };
