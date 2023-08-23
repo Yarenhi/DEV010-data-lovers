@@ -20,14 +20,19 @@ header {
     font-size: 2rem;
 }
 
+nav{ 
+text-align: center;
+}
 
 
 main{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap:40px;
     padding: 40px;
+    position: center;
 }
+
 
 .character-card{
     width: 100%;
@@ -43,7 +48,13 @@ main{
 
 .character-card > img{
     width: 100%;
-    height: 80% ; /*Cambia el ancho al 100% para que la imagen ocupe todo el ancho de la tarjeta */
+    height: 90% ; 
+    filter:grayscale(80%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #0c663f;
+    
+   /*Cambia el ancho al 100% para que la imagen ocupe todo el ancho de la tarjeta */
     /*margin: auto;
     border-radius: 2rem;
     outline: 1rem #043b1f;
@@ -52,17 +63,21 @@ main{
     margin-bottom:10px;
     display: flex;*/
 }
+.character-card > img:hover{
+  filter:none;
+  border: 3px solid #0c663f;
+
+}
+
 
 .character-card > h3{
-    color: black;
+    color: rgb(64, 15, 25);
     text-align: center;
-    font-size:1.0rem;
-    padding: 5px 5px;
-    /*background-color: #f7f3e2;*/
-    background-image: url("https://img.freepik.com/fotos-premium/resumen-movimiento-humo-verde-sobre-blanco_55716-2334.jpg?w=996");
-    opacity: 0.7;
+    font-size:1.5rem;
+    padding: 2px 2px;
+    background-color: #f7f3e2;
     position:static;
-
+    font-weight: bold;
 }
 
 /*header{
@@ -74,17 +89,18 @@ main{
     border-radius: 2rem;
 }*/
 
-img {
+/*img {
     object-fit: cover;
-    /* display: block;
+    display: block;
     width: 45%;
     margin: auto;
     border-radius: 2rem;
     outline: 1 rem #043b1f;
-  */
-}
+}*/
 
-  input {
+
+
+  /* input {
     border:0;
     background:  #00DDFF;
     border-radius: 8px;
@@ -110,4 +126,121 @@ img {
         transform: scale(0.9)
     }
 
-  
+   */
+
+  button{
+  margin: 0.5em;
+  min-width: 130px;
+  height: 40px;
+  color: #f7f3e2;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #eef0ef;
+  background: #0d603cbd;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px 5px rgb(253, 252, 252);
+   }
+   button:hover {
+    background: #fff;
+    color: #0c663f;
+    border: 2px solid #0c663f;
+  }
+
+  .Personaje,.Actor{
+  margin: 0.5em;
+  min-width: 120px;
+  height: 40px;
+  color: #0c663f;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2.3px solid #10784b;
+  background: #f7f3e2;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px 5px rgb(3, 54, 10);
+   }
+   .Personaje:hover,.Actor:hover {
+    border: 2px solid #0c663f;
+    background: transparent;
+  }
+
+  ::placeholder{ color:rgb(64, 15, 25)}
+
+  select{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2.5px solid #0c663f;
+  color: rgb(7, 57, 31);
+  background: transparent;
+  font-size:1.2rem;
+  font-weight: bold;
+  }
+  select:hover{
+    border: 2px solid #0c663f;
+    background:#f7f3e2;
+}
+
+label{
+  font-size:1.4rem; 
+  font-weight: bold;
+  color:rgb(64, 15, 25);
+}
+
+.checkbox{
+  cursor: pointer; 
+  min-width: 100px;
+  height: 30px;
+  /* border: 10px solid white;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #c41111; */
+  /*min-width: 130px;
+  height: 40px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #4ecdc4 0%, #c797eb 75%);
+} */
+/* input.checkbox:hover{
+  background-position: right center;
+}
+input.checkbox:active{
+  top: 2px;
+} */
+}
+span{
+  font-size:1.3rem; 
+  font-weight: bold;
+  color:#f7f3e2;
+  background: rgba(7, 57, 13, 0.6);
+  padding: 5px 10px;
+  border-radius: 5px;
+}

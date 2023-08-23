@@ -16,6 +16,10 @@
 
     <nav>
       <div>
+
+      <button id="btnOrdenarAZ">Ordenar A-Z</button>
+      <button id="btnOrdenarZA">Ordenar Z-A</button>
+
         <label for="selectorTemporada">Selecciona la temporada</label>   
         <select id="selectorTemporada">
              <option value="1" id="temp1">Temporada 1</option>
@@ -25,17 +29,11 @@
              <option value="4" id="temp5">Temporada 5</option>
              <!--<option value="6" id="todasTemp">Todas las temporadas</option>-->
            </select>
-
-           <div id="resultadoTemporada"></div>
            
+      <input type="text" class="Personaje" placeholder="Busca tu personaje" name="busquedaPersonaje">  
+      <input type="text" class="Actor" placeholder="Actor/Actriz" name="busquedaActor">
 
-      <input type="text" placeholder="Busca tu personaje" name="busquedaPersonaje">  
-      <input type="text" placeholder="Actor/Actriz" name="busquedaActor">
-      <input type= "checkbox" name="BetteerCall"> Aparecen en Better Call Saul
-      
-      <button id="btnOrdenarAZ">Ordenar A-Z</button>
-      <button id="btnOrdenarZA">Ordenar Z-A</button>
-      
+      <input type="checkbox" class="checkbox" name="BetterCall"><span>Aparecen en Better Call Saul</span>
       <div id="resultado"></div>
       </div>     
     </nav>
