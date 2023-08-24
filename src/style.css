@@ -96,7 +96,7 @@ main{
     border: 2px solid #0c663f;
   }
 
-  .Personaje,.Actor{
+  .Personaje{
   margin: 0.5em;
   min-width: 120px;
   height: 40px;
@@ -114,7 +114,7 @@ main{
   font-size: 1.2rem;
   box-shadow: 5px 5px 5px rgb(3, 54, 10);
    }
-   .Personaje:hover,.Actor:hover {
+   .Personaje:hover{
     border: 2px solid #0c663f;
     background: transparent;
   }
@@ -248,7 +248,7 @@ input.checkbox:active{
   top: 2px;
 
 } */
-}
+
 span{
   font-size:1.3rem; 
   font-weight: bold;
@@ -258,28 +258,42 @@ span{
   border-radius: 5px;
 }
 /* Media Queries para tabletas y celulares */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   body {
-      background-size: 768px; /* Ajustar el fondo para que cubra toda la pantalla */
+      background-size: 900px; /* Ajustar el fondo para que cubra toda la pantalla */
   }
-
   header {
       padding: 5px; /* Reduce el padding en pantallas pequeñas */
       font-size: 1.5rem; /* Reduce el tamaño de fuente en pantallas pequeñas */
       color:rgb(0, 0, 0);
+      
   }
+  nav{ 
+    align-items: center;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.531);
+    max-width: 65%;
+    display:block;
+    position:relative;
+    left: 15%;
+    padding: 2px;
+    }
 
   main {
-      grid-template-columns: 1fr 1fr; /* Cambia a 2 columnas en pantallas pequeñas */
-      gap: 20px; /* Reduce el espacio entre elementos en pantallas pequeñas */
-      padding: 20px; /* Reduce el padding en pantallas pequeñas */
+      grid-template-columns: 1fr 1fr 1fr; /* Cambia a 2 columnas en pantallas pequeñas */
+      gap: 50px; /* Reduce el espacio entre elementos en pantallas pequeñas */
+      padding: 50px; /* Reduce el padding en pantallas pequeñas */
   }
 
   .character-card > img {
-      height: auto; /* Ajusta la altura de la imagen proporcionalmente */
+    width: 100%;
+    height: 80%; /* Ajusta la altura de la imagen proporcionalmente */
   }
+  .character-card > h3{
+    font-size:1rem;
+
+  
 
   
 }
-} */
-
+}
