@@ -1,4 +1,4 @@
-import { selectorTemporada } from './main.js';
+
 
 export function ordenarAZ(data) {
   const ordenarAZdata = data.sort((a, b) => a.name.localeCompare(b.name)); 
@@ -10,8 +10,8 @@ export function ordenarZA(data) {
   return ordenarZAdata
 }
 
-export function temporada(data) {
-  const temporadaAFiltrar = parseInt(selectorTemporada.value, 10);
+export function temporada(data, Temporada) {
+  const temporadaAFiltrar = parseInt(Temporada, 10);
   // La función parseInt() en JavaScript se utiliza para analizar una cadena y extraer un número entero de ella.
   // La función parseInt() toma dos argumentos:
   // El primer argumento es la cadena que se va a convertir en un número.
