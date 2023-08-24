@@ -39,9 +39,9 @@ btnOrdenarZA.addEventListener("click", ()=>{
   getData(ejecutarOrdenarZA)
 }); 
 
-export const selectorTemporada= document.querySelector('#selectorTemporada');
+const selectorTemporada= document.querySelector('#selectorTemporada');
 selectorTemporada.addEventListener("change", ()=>{
-  const ejecutarFiltarTemporada = temporada(data.breaking_bad)
+  const ejecutarFiltarTemporada = temporada(data.breaking_bad, selectorTemporada.value)
   getData(ejecutarFiltarTemporada)
 });
 
