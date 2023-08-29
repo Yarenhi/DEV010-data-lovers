@@ -96,6 +96,13 @@ main{
     border: 2px solid #0c663f;
   }
 
+  .btnBuscar {
+  margin: 0.1em;
+  min-width: 40px;
+  height: 30px;
+  font-size: 1rem;
+  }
+
   .Personaje{
   margin: 0.5em;
   min-width: 120px;
