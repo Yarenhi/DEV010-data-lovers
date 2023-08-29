@@ -1,5 +1,3 @@
-
-
 export function ordenarAZ(data) {
   const ordenarAZdata = data.sort((a, b) => a.name.localeCompare(b.name)); 
   return ordenarAZdata
@@ -12,37 +10,18 @@ export function ordenarZA(data) {
 
 export function temporada(data, Temporada) {
   const temporadaAFiltrar = parseInt(Temporada, 10);
-  // La función parseInt() en JavaScript se utiliza para analizar una cadena y extraer un número entero de ella.
-  // La función parseInt() toma dos argumentos:
-  // El primer argumento es la cadena que se va a convertir en un número.
-  // El segundo argumento (opcional) es la base numérica en la que se debe interpretar la cadena. En este caso, se usa 10 para interpretar la cadena en base decimal.
-  // Por ejemplo, si el valor seleccionado en selectorTemporada es "1", que es una cadena, al utilizar parseInt(selectorTemporada.value, 10), el resultado sería 1 como un número entero.
-
-  // console.log(temporadaAFiltrar);
   const filtroTemporada = data.filter((personaje)=> personaje.appearance.includes(temporadaAFiltrar));
-  // console.log(filtroTemporada);
   return filtroTemporada
 }
 
-
-
-
-
-
-
-
-
-
-
-
-// export const filtroTemporada = (array) => {
-//   return array.filter(elemento=>elemento.apperance);
-// };
-
-// export const ordenarAZ = (array) => {
-//   return array.data.sort(elemento=>elemento.name);
-// };
-
-// export const anotherExample = () => {
-//   return 'OMG';
-// };
+export const filtrar = (data, busquedaPersonaje) =>{
+  // console.log(personaje.value);
+  const texto = busquedaPersonaje.toLowerCase();
+  const resultadosFiltrados = data.filter(personaje =>
+    personaje.portrayed.toLowerCase().includes(texto) ||
+    personaje.name.toLowerCase().includes(texto) ||
+    personaje.nickname.toLowerCase().includes(texto)
+  );
+  return resultadosFiltrados.length > 0 ? resultadosFiltrados : [];
+};
+ 
