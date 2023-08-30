@@ -1,4 +1,3 @@
-
 import data from './data/breakingbad/breakingbad.js';
 import { ordenarAZ, ordenarZA, temporada, filtrar } from './data.js';
 
@@ -50,22 +49,37 @@ selectorTemporada.addEventListener("change", ()=>{
 
 const btnBuscar = document.querySelector('#buscar');
 const busquedaPersonaje = document.querySelector('#busquedaPersonaje');
+const resultado = document.querySelector('#resultado');
 
 btnBuscar.addEventListener('click', () => {
   const valorBusqueda = busquedaPersonaje.value.trim();
+  resultado.textContent = '';
   
   if (valorBusqueda === '') {
-    const resultado = document.querySelector('#resultado');
-    resultado.textContent = alert("Por favor ingresa un término de búsqueda.");
+    resultado.textContent = "Por favor ingresa un término de búsqueda.";
   } else {
     const ejecutarFiltrar = filtrar(data.breaking_bad, busquedaPersonaje.value);
 
     if (ejecutarFiltrar.length > 0) {
       getData(ejecutarFiltrar);
     } else {
-      const resultado = document.querySelector('#resultado');
       resultado.textContent = "No se encontraron coincidencias.";
     }
   }
 });
 
+
+const btnCalculo = document.querySelector('#Calculo');
+const calculoContainer = document.getElementById("calculoContainer");
+btnCalculo.addEventListener('click', () => {
+  if (calculoContainer.style.display === "none" || calculoContainer.style.display === "") {
+    calculoContainer.style.display = "block";
+  } else {
+    calculoContainer.style.display = "none";
+  }
+});
+
+function PlayAudio() {
+  document.getElementById("cancionBreakingBad").play();
+}
+PlayAudio(); // Llama a la función para reproducir el audio automáticamente
