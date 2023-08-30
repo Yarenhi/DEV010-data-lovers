@@ -82,5 +82,7 @@ btnCalculo.addEventListener('click', () => {
 
 function PlayAudio() {
   document.getElementById("cancionBreakingBad").play();
-}
+
 PlayAudio(); // Llama a la función para reproducir el audio automáticamente
+
+//probando
