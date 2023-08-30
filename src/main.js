@@ -1,4 +1,3 @@
-
 import data from './data/breakingbad/breakingbad.js';
 import { ordenarAZ, ordenarZA, temporada, filtrar } from './data.js';
 
@@ -50,39 +49,38 @@ selectorTemporada.addEventListener("change", ()=>{
 
 const btnBuscar = document.querySelector('#buscar');
 const busquedaPersonaje = document.querySelector('#busquedaPersonaje');
+const resultado = document.querySelector('#resultado');
 
 btnBuscar.addEventListener('click', () => {
   const valorBusqueda = busquedaPersonaje.value.trim();
+  resultado.textContent = '';
   
   if (valorBusqueda === '') {
-    const resultado = document.querySelector('#resultado');
-    resultado.textContent = alert("Por favor ingresa un término de búsqueda.");
+    resultado.style.display='block';
   } else {
     const ejecutarFiltrar = filtrar(data.breaking_bad, busquedaPersonaje.value);
 
     if (ejecutarFiltrar.length > 0) {
       getData(ejecutarFiltrar);
     } else {
-      displayErrorImage("Imagenes/bb_walter-white-large.jpg");
-      // const resultado = document.querySelector('#resultado');
-      // resultado.textContent = "No se encontraron coincidencias.";
-      function displayErrorImage(imageSrc) {
-        const errorContainer = document.getElementById("error-container");
-        // Limpiar el contenido existente en el contenedor
-        errorContainer.innerHTML = '';
-   // Crear un elemento de imagen y establecer sus atributos
-        const errorImage = document.createElement("img");
-        errorImage.id = "error-image";
-        errorImage.src = imageSrc;
-        errorImage.alt = "Error Image";
-        // Agregar la imagen al contenedor de error y mostrarlo
-        errorContainer.appendChild(errorImage);
-        errorContainer.style.display = "block";
-        // acá puedes seguir usando el appendChild que irá "poniendo de hijo" un elemento a otro que será padre. Eso hace que puedas ir asignandolo donde tú quieras.
-      
-      }
-
+      resultado.style.display='block';
     }
+  }
+}
+);
+
+
+const btnCalculo = document.querySelector('#Calculo');
+const calculoContainer = document.getElementById("calculoContainer");
+btnCalculo.addEventListener('click', () => {
+  if (calculoContainer.style.display === "none" || calculoContainer.style.display === "") {
+    calculoContainer.style.display = "block";
+  } else {
+    calculoContainer.style.display = "none";
   }
 });
 
+function PlayAudio() {
+  document.getElementById("cancionBreakingBad").play();
+}
+PlayAudio(); // Llama a la función para reproducir el audio automáticamente
