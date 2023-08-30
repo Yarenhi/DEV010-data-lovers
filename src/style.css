@@ -1,10 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-    body{
+body{
     background-image: url("Image/Fondo2.png");
     background-size: 2150px;
     background-attachment: fixed;
@@ -12,9 +6,8 @@
     /*Buscar background-attachment o scroll para dejar fijo el fondo y desplazar solo las imágenes*/
     
 }
-
-header {
-    padding:100px;
+/*header{
+    opacity: 0.8;
     text-align: center;
     color: white;
     font-size: 2rem;
@@ -314,10 +307,6 @@ span{
     height: 80%; /* Ajusta la altura de la imagen proporcionalmente */
   }
   .character-card > h3{
-    font-size:1rem;
-
-  
-
-  
+    font-size:1rem;  
 }
-}
+
