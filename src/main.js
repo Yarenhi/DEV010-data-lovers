@@ -56,17 +56,18 @@ btnBuscar.addEventListener('click', () => {
   resultado.textContent = '';
   
   if (valorBusqueda === '') {
-    resultado.textContent = "Por favor ingresa un término de búsqueda.";
+    resultado.style.display='block';
   } else {
     const ejecutarFiltrar = filtrar(data.breaking_bad, busquedaPersonaje.value);
 
     if (ejecutarFiltrar.length > 0) {
       getData(ejecutarFiltrar);
     } else {
-      resultado.textContent = "No se encontraron coincidencias.";
+      resultado.style.display='block';
     }
   }
-});
+}
+);
 
 
 const btnCalculo = document.querySelector('#Calculo');

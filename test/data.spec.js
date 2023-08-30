@@ -11,11 +11,11 @@ describe('ordenarAZ', () => {
       { name: 'A' },
       { name: 'B' },
     ];
-    const resultadoOrdenado=[
+    const resultadoOrdenado = [
       { name: 'A' },
       { name: 'B' },
       { name: 'C' },
-    ];
+    ];      
     expect(ordenarAZ(data)).toEqual(resultadoOrdenado);
   });
 });
@@ -25,21 +25,21 @@ describe('ordenarZA', () => {
     expect(typeof ordenarZA).toBe('function');
   });
 
-  it('returns `odenadoZA`', () => {
+  it('returns `example`', () => {
     const data=[
       { name: 'C' },
       { name: 'A' },
       { name: 'B' },
     ];
-    const resultadoOrdenado=[
+    const resultadoOrdenado = [
       { name: 'C' },
       { name: 'B' },
       { name: 'A' },
-    ];
+    ];   
     expect(ordenarZA(data)).toEqual(resultadoOrdenado);
   });
 });
-
+   
 describe('temporada', () => {
   it('is a function', () => {
     expect(typeof temporada).toBe('function');
