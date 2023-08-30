@@ -1,4 +1,3 @@
-
 import { filtrar, ordenarAZ, ordenarZA, temporada } from "../src/data";
 
 describe('ordenarAZ', () => {
@@ -16,10 +15,8 @@ describe('ordenarAZ', () => {
       { name: 'A' },
       { name: 'B' },
       { name: 'C' },
-    ];
-      
-    const datosOrdenados = ordenarAZ(data);
-    expect(datosOrdenados).toEqual(resultadoOrdenado);
+    ];      
+    expect(ordenarAZ(data)).toEqual(resultadoOrdenado);
   });
 });
 
@@ -38,49 +35,11 @@ describe('ordenarZA', () => {
       { name: 'C' },
       { name: 'B' },
       { name: 'A' },
-    ];
-      
-    const datosOrdenados = ordenarZA(data);
-    expect(datosOrdenados).toEqual(resultadoOrdenado);
-  });
-});
-
-
-describe('temporada', () => {
-  it('is a function', () => {
-    expect(typeof temporada).toBe('function');
-  });
-
-  it('returns `example`', () => {
-    const data=[
-      { name: 'C' },
-      { name: 'A' },
-      { name: 'B' },
-    ];
-    const resultadoFiltrados = [
-      { name: 'C' },
-    
-    ];
-    const resultadoFiltrado = temporada(data);
-    expect(resultadoFiltrado).toEqual(resultadoFiltrados);
-  });
-});
-
-  it('returns `odenadoZA`', () => {
-    const data=[
-      { name: 'C' },
-      { name: 'A' },
-      { name: 'B' },
-    ];
-    const resultadoOrdenado=[
-      { name: 'C' },
-      { name: 'B' },
-      { name: 'A' },
-    ];
+    ];   
     expect(ordenarZA(data)).toEqual(resultadoOrdenado);
   });
 });
-
+   
 describe('temporada', () => {
   it('is a function', () => {
     expect(typeof temporada).toBe('function');

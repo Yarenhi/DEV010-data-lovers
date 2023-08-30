@@ -63,8 +63,25 @@ btnBuscar.addEventListener('click', () => {
     if (ejecutarFiltrar.length > 0) {
       getData(ejecutarFiltrar);
     } else {
-      const resultado = document.querySelector('#resultado');
-      resultado.textContent = "No se encontraron coincidencias.";
+      displayErrorImage("Imagenes/bb_walter-white-large.jpg");
+      // const resultado = document.querySelector('#resultado');
+      // resultado.textContent = "No se encontraron coincidencias.";
+      function displayErrorImage(imageSrc) {
+        const errorContainer = document.getElementById("error-container");
+        // Limpiar el contenido existente en el contenedor
+        errorContainer.innerHTML = '';
+   // Crear un elemento de imagen y establecer sus atributos
+        const errorImage = document.createElement("img");
+        errorImage.id = "error-image";
+        errorImage.src = imageSrc;
+        errorImage.alt = "Error Image";
+        // Agregar la imagen al contenedor de error y mostrarlo
+        errorContainer.appendChild(errorImage);
+        errorContainer.style.display = "block";
+        // acá puedes seguir usando el appendChild que irá "poniendo de hijo" un elemento a otro que será padre. Eso hace que puedas ir asignandolo donde tú quieras.
+      
+      }
+
     }
   }
 });
