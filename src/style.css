@@ -191,6 +191,9 @@ main{
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
   background-image: url("https://hips.hearstapps.com/hmg-prod/images/breaking-bad-resumen-cinco-temporadas-1570700511.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: scroll;
 }
 #calculoContainer > h2{
   color: rgb(64, 15, 25);
