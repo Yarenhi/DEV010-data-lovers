@@ -23,7 +23,7 @@ export const filtrar = (data, busquedaPersonaje) =>{
     personaje.nickname.toLowerCase().includes(texto)
   );
   return resultadosFiltrados.length > 0 ? resultadosFiltrados : [];
-};
+}
  
 export function textoAASCII(texto) {
   const caracteresASCII = [];
@@ -44,7 +44,3 @@ export const encontrar = (data) => {
   return cartaSeleccionada;
 } 
 
-// calculo(data) {
-//   const ordenarZAdata = data.slice().sort((a, b) => b.name.localeCompare(a.name));
-//   return ordenarZAdata
-// }

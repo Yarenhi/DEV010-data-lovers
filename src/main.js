@@ -15,14 +15,18 @@ function getData(data) {
     img.src = p.img
     const titulo = document.createElement('h3')
     titulo.textContent = p.name
-    characterCard.append(img, titulo)
+    const nickname = document.createElement('h4')
+    nickname.textContent = p.nickname
+    const occupation = document.createElement('h4')
+    occupation.textContent = p.occupation
+    const status = document.createElement('h4')
+    status.textContent = p.status
+    characterCard.append(img, titulo, 'nickname:', nickname, 'occupation:', occupation, 'status:', status)
     main.append(characterCard)
-    return data.map(p=>({name:p.name, img:p.img}))
+    // return data.map(p=>({name:p.name, img:p.img, nickname:p.nickname}))
   });
 }
-// const characterArray = Object.values(data.breaking_bad);
-// getData(characterArray);
-// console.log(data.breaking_bad);
+
 getData(data.breaking_bad) 
 
 const btnOrdenarAZ = document.querySelector('#btnOrdenarAZ');
@@ -84,7 +88,7 @@ document.getElementById('procesar').addEventListener('click', function(event) {
   const nombre = document.getElementById('Nombre').value;
   const signo = document.getElementById('Signo').value;
   const elemento = document.getElementById('Elemento').value;
-  // Procesa los datos o envíalos al servidor
+ 
 
   const nombreASCII = textoAASCII(nombre);
   const elementoASCII = textoAASCII(elemento);
@@ -97,8 +101,9 @@ document.getElementById('procesar').addEventListener('click', function(event) {
 const btnProcesar = document.querySelector('#procesar');
 btnProcesar.addEventListener("click", ()=>{
   const ejecutarEncontrar = encontrar(data.breaking_bad);
-  console.log(ejecutarEncontrar);
-  // getData(ejecutarEncontrar)
+  if (calculoContainer.style.display === "block") {
+    calculoContainer.style.display = "none";}
+  getData([ejecutarEncontrar])
 });
 
 // function PlayAudio() {
