@@ -52,8 +52,11 @@ Se definieron las historias de usuario
 ##### Historia de Usuario 5
 ![](/src/Image/Imagenes/HU5.jpg)
 
-#####Se creo el prototipo de baja fidelidad 
+##### Se creo el prototipo de baja fidelidad 
 ![](/src/Image/Imagenes/Prototipo_de_baja_fidelidad.png)
+
+#### Despúes se trabajo en el prototipo de alta fidelidad
+![](/src/Image/PrototipoAltaF.png)
 
 
 
