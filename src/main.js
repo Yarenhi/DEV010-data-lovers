@@ -17,11 +17,14 @@ function getData(data) {
     titulo.textContent = p.name
     const nickname = document.createElement('h4')
     nickname.textContent = p.nickname
+    nickname.className = 'caracteristicas'
     const occupation = document.createElement('h4')
     occupation.textContent = p.occupation
+    occupation.className = 'caracteristicas'
     const status = document.createElement('h4')
     status.textContent = p.status
-    characterCard.append(img, titulo, 'nickname:', nickname, 'occupation:', occupation, 'status:', status)
+    status.className = 'caracteristicas'
+    characterCard.append(img, titulo, nickname, occupation, status)
     main.append(characterCard)
     // return data.map(p=>({name:p.name, img:p.img, nickname:p.nickname}))
   });
