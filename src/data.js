@@ -30,6 +30,7 @@ export function textoAASCII(texto) {
   for (let i = 0; i < texto.length; i++) {
     const codigoASCII = texto.charCodeAt(i);
     caracteresASCII.push(codigoASCII);
+    console.log(caracteresASCII);
   }
   return caracteresASCII;
 }
