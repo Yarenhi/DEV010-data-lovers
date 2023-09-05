@@ -91,6 +91,7 @@ document.getElementById('procesar').addEventListener('click', function(event) {
  
 
   const nombreASCII = textoAASCII(nombre);
+  // console.log (nombreASCII);
   const elementoASCII = textoAASCII(elemento);
   const signoASCII = textoAASCII(signo);
 
