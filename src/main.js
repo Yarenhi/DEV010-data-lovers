@@ -26,7 +26,6 @@ function getData(data) {
     status.className = 'caracteristicas'
     characterCard.append(img, titulo, nickname, occupation, status)
     main.append(characterCard)
-    // return data.map(p=>({name:p.name, img:p.img, nickname:p.nickname}))
   });
 }
 
