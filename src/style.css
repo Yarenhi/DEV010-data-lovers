@@ -25,7 +25,7 @@ nav {
 }
 
 
-main {
+main { /*selector de elemento/tipo/etiqueta (a partir de <etiqueta> en MDN)*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 60px;
@@ -52,7 +52,7 @@ main {
   border: 2px solid #0c663f;
 }
 
-.character-card:hover .caracteristicas{
+.character-card:hover .caracteristicas {
   display: block;
 }
 
@@ -107,7 +107,7 @@ button {
   box-shadow: 5px 5px 5px rgb(253, 252, 252);
 }
 
-button:hover {
+button:hover { /*selector pseudoclase*/
   background: #fff;
   color: #0c663f;
   border: 2px solid #0c663f;
@@ -153,7 +153,7 @@ button:hover {
   background: transparent;
 }
 
-::placeholder {
+::placeholder { /*selector pseudoelemento*/
   color: rgb(64, 15, 25)
 }
 
@@ -254,8 +254,6 @@ select:hover {
   left: 39%;
   max-width: 20%;
   position: relative;
-  align-items: center;
-  text-align: center;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(253, 252, 252);
 }
@@ -263,17 +261,15 @@ select:hover {
 .NombreCalculo,
 .SignoCalculo,
 .ElementoCalculo {
-
   display: flex;
   font-family: bold;
-  font-size: 1em;
+  font-size: 1.3em;
   color: #0c663f;
   padding: 10px;
   border: 3.5px solid #0c663f;
   border-radius: 10px;
   max-width: 30%;
   left: 39%;
-  align-items: center;
   text-align: center;
   margin: 10px;
   position: relative;
@@ -322,7 +318,7 @@ audio {
   background-size: 2150px;
 }
 
-span {
+span { /*Selector de tipo*/
   font-size: 1.3rem;
   font-weight: bold;
   color: #f7f3e2;
@@ -427,6 +423,6 @@ span {
     background: #0c663f98;
     height: 30px;
     box-shadow: 5px 5px 5px rgb(253, 252, 252);
-  
+
   }
 }
