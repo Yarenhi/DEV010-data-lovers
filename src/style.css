@@ -69,7 +69,6 @@ main { /*selector de elemento/tipo/etiqueta (a partir de <etiqueta> en MDN)*/
   top: 5%;
   left: 0;
   right: 0;
-  /* transform: translateY(-50%); */
   color: rgb(64, 15, 25);
   text-align: center;
   font-size: 1rem;
@@ -187,13 +186,6 @@ select:hover {
   color: rgb(64, 15, 25);
 }
 
-/* .checkbox{
-  cursor: pointer; 
-  min-width: 100px;
-  height: 30px;
-  
-} */
-
 #Calculo {
   font-size: 1.2rem;
   font-weight: bold;
@@ -205,30 +197,22 @@ select:hover {
 
 #calculoContainer {
   position: fixed;
-  /* Sit on top of the page content */
   display: none;
-  /* Hidden by default */
   width: 100%;
-  /* Full width (cover the whole page) */
   height: 100%;
-  /* Full height (cover the whole page) */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
-  /* Black background with opacity */
   z-index: 2;
-  /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
-  /* Add a pointer on hover */
   background-image: url("https://hips.hearstapps.com/hmg-prod/images/breaking-bad-resumen-cinco-temporadas-1570700511.jpg");
   background-size: cover;
   background-attachment: fixed;
   overflow: scroll;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
 #calculoContainer>h2 {
@@ -274,7 +258,6 @@ select:hover {
   margin: 10px;
   position: relative;
   box-shadow: 5px 5px 5px rgb(253, 252, 252);
-
 }
 
 audio {
@@ -292,28 +275,20 @@ audio {
   background: #0c663f98;
   height: 30px;
   box-shadow: 5px 5px 5px rgb(253, 252, 252);
-
 }
 
 #resultado {
   position: fixed;
-  /* Sit on top of the page content */
   display: none;
-  /* Hidden by default */
   width: 100%;
-  /* Full width (cover the whole page) */
   height: 100%;
-  /* Full height (cover the whole page) */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  /* Black background with opacity */
   z-index: 2;
-  /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
-  /* Add a pointer on hover */
   background-image: url("Image/Imagenes/bb_walter-white-large.jpg");
   background-size: 2150px;
 }
@@ -326,6 +301,7 @@ span { /*Selector de tipo*/
   padding: 5px 10px;
   border-radius: 5px;
 }
+
 
 
 /* Media Queries para tabletas y celulares */
@@ -341,7 +317,6 @@ span { /*Selector de tipo*/
     font-size: 1.5rem;
     /* Reduce el tamaño de fuente en pantallas pequeñas */
     color: rgb(0, 0, 0);
-
   }
 
   nav {
@@ -379,32 +354,23 @@ span { /*Selector de tipo*/
 
   .character-card>h3 {
     font-size: 1rem;
-
   }
 
   #resultado {
     position: fixed;
-    /* Sit on top of the page content */
     display: none;
-    /* Hidden by default */
     width: 100%;
-    /* Full width (cover the whole page) */
     height: 100%;
-    /* Full height (cover the whole page) */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Black background with opacity */
     z-index: 2;
-    /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer;
-    /* Add a pointer on hover */
     background-image: url("Image/Imagenes/bb_walter-white-large.jpg");
     background-size: 600px;
     background-position: center;
-    /* Centra la imagen en el contenedor */
     background-repeat: no-repeat
   }
 
@@ -423,6 +389,5 @@ span { /*Selector de tipo*/
     background: #0c663f98;
     height: 30px;
     box-shadow: 5px 5px 5px rgb(253, 252, 252);
-
   }
 }

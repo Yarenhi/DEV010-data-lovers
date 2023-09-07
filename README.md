@@ -257,7 +257,6 @@ Los test se crearon a partir de un ejemplo básico preestablecido en el boilerpl
 [Diseño páginas web](https://www.behance.net/gallery/173840021/Cooking-up-trouble "Diseño páginas web")
 [Guía testing](https://www.youtube.com/playlist?list=PLiAEe0-R7u8kqvibxkK9tqqoJXnhgtefg "Guía testing")
 [Trabajando con Json](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON "Trabajando con Json"
-
 https://scrum.menzinsky.com/2021/09/como-entender-la-diferencia-entre.html BIBLIOGRAFIA README
 https://www.youtube.com/watch?v=FconkeF_VZc COMO CREAR UNA PAGINA ERROR PERSONALIZADA
 https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random MATH. RANDON()
