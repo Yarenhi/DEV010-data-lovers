@@ -247,42 +247,70 @@ Los test se crearon a partir de un ejemplo básico preestablecido en el boilerpl
 **9.Referencias:**
 
 [Clave SSH](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent "Clave SSH")
-[Fork y PR](https://www.loom.com/share/adccc2b5b73940a3bf9835e3d3eb4ca8?sid=89d83378-08ed-4616-98c5-5ae665d23ca4 "Fork y PR")
-[Git flujo de trabajo colaborativo](https://drive.google.com/file/d/1aIugYCkKdZtm4GHsE5y8ea_MLxaOGJ9T/view "Git flujo de trabajo colaborativo")
-[Git/GitHub colaborativo](https://www.youtube.com/watch?v=EOO6Ze9_lDY "Git/GitHub colaborativo")
-[Uso básico Git](https://diego.com.es/uso-basico-de-git "Uso básico Git")
-[Filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter "FILTER")
-[Hover a una img](https://www.youtube.com/watch?v=Z5MoBm99w1Q "Hover a una img")
-[Json hero](https://jsonhero.io/j/GB3QFlROMeoC "Json hero")
-[Diseño páginas web](https://www.behance.net/gallery/173840021/Cooking-up-trouble "Diseño páginas web")
-[Guía testing](https://www.youtube.com/playlist?list=PLiAEe0-R7u8kqvibxkK9tqqoJXnhgtefg "Guía testing")
-[Trabajando con Json](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON "Trabajando con Json"
 
-https://scrum.menzinsky.com/2021/09/como-entender-la-diferencia-entre.html BIBLIOGRAFIA README
-https://www.youtube.com/watch?v=FconkeF_VZc COMO CREAR UNA PAGINA ERROR PERSONALIZADA
-https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random MATH. RANDON()
-https://elcodigoascii.com.ar/ CODIGO ASCII
-https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML INNER.HTML
-https://drive.google.com/file/d/1fsgOKHYxGbZPE_5-PK-L7o3IXsGFhjud/view TEST CAMP 17.08.23
-https://www.w3schools.com/howto/howto_css_overlay.asp OVERLAY EN CSS
-Z-INDEX https://developer.mozilla.org/es/docs/Web/CSS/z-index
-https://developer.mozilla.org/es/docs/Web/CSS/grid-template-columns GRID TEMPLATE
-https://www.youtube.com/watch?v=h762vNl-djM AGREGAR MUSICA A UNA INTERFAZ
-https://www.youtube.com/watch?v=UyxILLXW2dQ GALERIA DE IMG CON FETCH Y DOM
-https://www.youtube.com/watch?v=-KfC7Nl8V4E BB MUSIC
-https://programacion.net/articulo/como_crear_un_menu_centrado_en_bootstrap_navbar_1854#:~:text=C%C3%B3digo%20HTML&text=El%20men%C3%BA%20se%20podr%C3%A1%20colocar,center%20para%20centrar%20el%20men%C3%BA. COMO CREAR UN MENU CENTRADA HTML
-https://www.lawebdelprogramador.com/foros/CSS/1708707-Como-cambiar-mi-nav-al-hacer-scroll.html#google_vignette COMO CAMBIAR NAV AL HACER SCROLL
-IF ... ELSE https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
+[Fork y PR](https://www.loom.com/share/adccc2b5b73940a3bf9835e3d3eb4ca8?sid=89d83378-08ed-4616-98c5-5ae665d23ca4 "Fork y PR")
+
+[Git flujo de trabajo colaborativo](https://drive.google.com/file/d/1aIugYCkKdZtm4GHsE5y8ea_MLxaOGJ9T/view "Git flujo de trabajo colaborativo")
+
+[Git/GitHub colaborativo](https://www.youtube.com/watch?v=EOO6Ze9_lDY "Git/GitHub colaborativo")
+
+[Uso básico Git](https://diego.com.es/uso-basico-de-git "Uso básico Git")
+
+[Filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter "FILTER")
+
+[Hover a una img](https://www.youtube.com/watch?v=Z5MoBm99w1Q "Hover a una img")
+
+[Json hero](https://jsonhero.io/j/GB3QFlROMeoC "Json hero")
+
+[Diseño páginas web](https://www.behance.net/gallery/173840021/Cooking-up-trouble "Diseño páginas web")
+
+[Guía testing](https://www.youtube.com/playlist?list=PLiAEe0-R7u8kqvibxkK9tqqoJXnhgtefg "Guía testing")
+
+[Trabajando con Json](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON "Trabajando con Json")
+
+[Bibliografía Readme](https://scrum.menzinsky.com/2021/09/como-entender-la-diferencia-entre.html "Bibliografía Readme")
+
+[Como crear una página error personalizada](https://www.youtube.com/watch?v=FconkeF_VZc "Como crear una página error personalizada" )
+
+[Math.Random()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random "Math.Random()")
+
+[Código ASCII](https://elcodigoascii.com.ar/ "Código ASCII")
+
+[InnerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML "Inner.HTM")
+
+[Test Camp 17.08.23](https://drive.google.com/file/d/1fsgOKHYxGbZPE_5-PK-L7o3IXsGFhjud/view "Test Camp 17.08.23")
+
+[Overlay en CSS](https://www.w3schools.com/howto/howto_css_overlay.asp "Overlay en CSS")
+
+[Z-Index](https://developer.mozilla.org/es/docs/Web/CSS/z-index "Z-Index")
+
+[Grid Template](https://developer.mozilla.org/es/docs/Web/CSS/grid-template-columns "Grid Template")
+
+[Agregar música a una interfaz](https://www.youtube.com/watch?v=h762vNl-djM "Agregar música a una interfaz")
+
+[Galería de Imágenes con FETCH y DOM](https://www.youtube.com/watch?v=UyxILLXW2dQ "Galería de Imágenes con FETCH Y DOM")
+
+[Música Breaking Bad](https://www.youtube.com/watch?v=-KfC7Nl8V4E "Música Breaking Bad")
+
+[Como crear un menú centrado](https://programacion.net/articulo/como_crear_un_menu_centrado_en_bootstrap_navbar_1854#:~:text=C%C3%B3digo%20HTML&text=El%20men%C3%BA%20se%20podr%C3%A1%20colocar,center%20para%20centrar%20el%20men%C3%BA. "Como creat un menú centrado") 
+
+[Como cambiar nav al hacer scroll](https://www.lawebdelprogramador.com/foros/CSS/1708707-Como-cambiar-mi-nav-al-hacer-scroll.html#google_vignette "Como cambiar nav al hacer scroll")
+
+[If...else]( https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else "If...Else")
+
 [Escribir readme Markdown](https://pandao.github.io/editor.md/en.html "Escribir readme Markdown")
+
 [Markdown guide](https://www.markdownguide.org/cheat-sheet/ "Mardown guide")
-Respecto a fondo de imágenes para evitar el mal contraste con el fondo
-https://css-tricks.com/apply-a-filter-to-a-background-image/
-https://codepen.io/3dms/pen/abPgxm
-para etiqueta picture en HTML
-https://blog.bitsrc.io/why-you-should-use-picture-tag-instead-of-img-tag-b9841e86bf8b
-Responsive 
-https://www.youtube.com/watch?v=Km_Fug5Xs5w&t=94s
-https://www.youtube.com/watch?v=yUfcpPkOajA 14:02 habla sobre trabajar en css de acuerdo al tamaño de la pantalla
+
+[Filter para una imagen](https://css-tricks.com/apply-a-filter-to-a-background-image/ "Filter para imagen" )
+[Filter para una imagen](https://codepen.io/3dms/pen/abPgxm "Filter para imagen")
+
+[Para etiqueta picture en HTML](https://blog.bitsrc.io/why-you-should-use-picture-tag-instead-of-img-tag-b9841e86bf8b "Para etiqueta picture en HTML")
+
+[Responsive](https://www.youtube.com/watch?v=Km_Fug5Xs5w&t=94s "Responsive")
+
+[Responsive](https://www.youtube.com/watch?v=yUfcpPkOajA)
+
 cursos de JS con proyectos https://www.freecodecamp.org/
 Formato de botones: https://markodenic.com/tools/buttons-generator/
 Estilo a checkbox https://desarrolloweb.com/articulos/estilos-css-campos-checkbox
