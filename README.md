@@ -147,7 +147,9 @@ Acordamos trabajar con Trello para llevar a cabo la organización del proyecto:
 
 **5. Problemas de usabilidad:**
 
-Inicialmente realizamos un bosquejo genérico de la interfaz del proyecto:
+En este proyecto no se realizaron pruebas de usabilidad en cuanto a la interacción de un usuario con la interfaz, salvo las creadoras de la misma, por tanto los siguientes problemas y soluciones planteados están dados a partir de las distintas demos semanes que tuvimos una vez finalizaba el Sprint, en este sentido consideramos a futuro abordar la problemática de usabilidad de acuerdo a lo recomendado en la literatura oficial.
+
+En función de la presentación en la primera demo, inicialmente realizamos un bosquejo genérico de la interfaz del proyecto:
 
 ##### Problema uno: 
 La usabilidad aún no estab definida, sin embargo un problema presentado era el fondo de trabajo ya que era muy oscuro y presentaba problemas de integración de colores, por tanto nos recomendaron seguir una paleta de colores y encontrar un fondo más claro.
@@ -234,8 +236,10 @@ Fase 3: Interfaz de ¿Qué personaje serías?.
 Fase 4: Resultado de ¿Qué personaje serías?.
 ![](/src/Image/PrototipoFinalD.png)
 
+
 **7. Enlace a Zeplin**
 En esta oportunidad trabajamos el esquema del proyecto en Trello y Pptx: los diversos elementos empleados se encuentran en el prototipo de baja fidelidad, de alta fidelidad y las distintas fases del prototipo final antes mostradas, también incluímos en esta descripción de proyecto una vista general de la planificación y los Sprints trabajados en TRELLO; no utilizamos figma ni herramientas a fines por tanto no resulta fluído a fechas de termino de proyecto llevar la información de Pptx a figma y de ahí a Zeplin, en ese sentido este objetivo se esperará cubrir en el próximo proyecto por ambas participantes.
+
 
 **8.Test implementados:**
 
@@ -256,75 +260,72 @@ Los test se crearon a partir de un ejemplo básico preestablecido en el boilerpl
 
 [Uso básico Git](https://diego.com.es/uso-basico-de-git "Uso básico Git")
 
-[Filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter "FILTER")
-
-[Hover a una img](https://www.youtube.com/watch?v=Z5MoBm99w1Q "Hover a una img")
-
 [Json hero](https://jsonhero.io/j/GB3QFlROMeoC "Json hero")
-
-[Diseño páginas web](https://www.behance.net/gallery/173840021/Cooking-up-trouble "Diseño páginas web")
-
-[Guía testing](https://www.youtube.com/playlist?list=PLiAEe0-R7u8kqvibxkK9tqqoJXnhgtefg "Guía testing")
 
 [Trabajando con Json](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON "Trabajando con Json")
 
-[Bibliografía Readme](https://scrum.menzinsky.com/2021/09/como-entender-la-diferencia-entre.html "Bibliografía Readme")
+[Diseño páginas web](https://www.behance.net/gallery/173840021/Cooking-up-trouble "Diseño páginas web")
 
-[Como crear una página error personalizada](https://www.youtube.com/watch?v=FconkeF_VZc "Como crear una página error personalizada" )
+[paleta de colores](https://colormagic.app/ "paleta de colores")
 
-[Math.Random()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random "Math.Random()")
+[paleta de colores con tu diseño previsto](https://color.adobe.com/explore "paleta de colores con tu diseño previsto")
 
-[Código ASCII](https://elcodigoascii.com.ar/ "Código ASCII")
+[Galería de Imágenes con FETCH y DOM](https://www.youtube.com/watch?v=UyxILLXW2dQ "Galería de Imágenes con FETCH Y DOM")
 
-[InnerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML "Inner.HTM")
+[InnerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML "Inner.HTML")
 
-[Test Camp 17.08.23](https://drive.google.com/file/d/1fsgOKHYxGbZPE_5-PK-L7o3IXsGFhjud/view "Test Camp 17.08.23")
+[Grid Template](https://developer.mozilla.org/es/docs/Web/CSS/grid-template-columns "Grid Template")
+
+[Crear un menú centrado](https://programacion.net/articulo/como_crear_un_menu_centrado_en_bootstrap_navbar_1854#:~:text=C%C3%B3digo%20HTML&text=El%20men%C3%BA%20se%20podr%C3%A1%20colocar,center%20para%20centrar%20el%20men%C3%BA. "Crear un menú centrado") 
+
+[Cambiar nav al hacer scroll](https://www.lawebdelprogramador.com/foros/CSS/1708707-Como-cambiar-mi-nav-al-hacer-scroll.html#google_vignette "Cambiar nav al hacer scroll")
+
+[Formato de botones](https://markodenic.com/tools/buttons-generator/ "Formato de botones")
+
+[Etiqueta picture en HTML](https://blog.bitsrc.io/why-you-should-use-picture-tag-instead-of-img-tag-b9841e86bf8b "Etiqueta picture en HTML")
+
+[Filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter "FILTER")
+
+[Filter para una imagen](https://css-tricks.com/apply-a-filter-to-a-background-image/ "Filter para imagen" )
+
+[Filter para una imagen](https://codepen.io/3dms/pen/abPgxm "Filter para imagen")
+
+[Hover a una img](https://www.youtube.com/watch?v=Z5MoBm99w1Q "Hover a una img")
 
 [Overlay en CSS](https://www.w3schools.com/howto/howto_css_overlay.asp "Overlay en CSS")
 
 [Z-Index](https://developer.mozilla.org/es/docs/Web/CSS/z-index "Z-Index")
 
-[Grid Template](https://developer.mozilla.org/es/docs/Web/CSS/grid-template-columns "Grid Template")
+[Como crear una página error personalizada](https://www.youtube.com/watch?v=FconkeF_VZc "Como crear una página error personalizada" )
+
+[If...else]( https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else "If...Else")
+
+[JS proyectos](https://www.freecodecamp.org/ "JS proyectos")
+
+[Métodos de arreglo](https://www.youtube.com/watch?v=bkgXlQp5hbI "Métodos de arreglo")
+
+[Math.Random()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random "Math.Random()")
+
+[Código ASCII](https://elcodigoascii.com.ar/ "Código ASCII")
+
+[Guía testing](https://www.youtube.com/playlist?list=PLiAEe0-R7u8kqvibxkK9tqqoJXnhgtefg "Guía testing")
+
+[Test Camp 17.08.23](https://drive.google.com/file/d/1fsgOKHYxGbZPE_5-PK-L7o3IXsGFhjud/view "Test Camp 17.08.23")
 
 [Agregar música a una interfaz](https://www.youtube.com/watch?v=h762vNl-djM "Agregar música a una interfaz")
 
-[Galería de Imágenes con FETCH y DOM](https://www.youtube.com/watch?v=UyxILLXW2dQ "Galería de Imágenes con FETCH Y DOM")
-
 [Música Breaking Bad](https://www.youtube.com/watch?v=-KfC7Nl8V4E "Música Breaking Bad")
 
-[Como crear un menú centrado](https://programacion.net/articulo/como_crear_un_menu_centrado_en_bootstrap_navbar_1854#:~:text=C%C3%B3digo%20HTML&text=El%20men%C3%BA%20se%20podr%C3%A1%20colocar,center%20para%20centrar%20el%20men%C3%BA. "Como creat un menú centrado") 
+[Responsive](https://www.youtube.com/watch?v=Km_Fug5Xs5w&t=94s "Responsive")
 
-[Como cambiar nav al hacer scroll](https://www.lawebdelprogramador.com/foros/CSS/1708707-Como-cambiar-mi-nav-al-hacer-scroll.html#google_vignette "Como cambiar nav al hacer scroll")
+[Responsive](https://www.youtube.com/watch?v=yUfcpPkOajA "Responsive")
 
-[If...else]( https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else "If...Else")
+[Simulador Responsive](https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk "Simulador Responsive")
+
+[Eslint](https://www.freecodecamp.org/espanol/news/que-es-linting-y-eslint/ "Eslint")
+
+[Bibliografía Readme](https://scrum.menzinsky.com/2021/09/como-entender-la-diferencia-entre.html "Bibliografía Readme")
 
 [Escribir readme Markdown](https://pandao.github.io/editor.md/en.html "Escribir readme Markdown")
 
 [Markdown guide](https://www.markdownguide.org/cheat-sheet/ "Mardown guide")
-
-[Filter para una imagen](https://css-tricks.com/apply-a-filter-to-a-background-image/ "Filter para imagen" )
-[Filter para una imagen](https://codepen.io/3dms/pen/abPgxm "Filter para imagen")
-
-[Para etiqueta picture en HTML](https://blog.bitsrc.io/why-you-should-use-picture-tag-instead-of-img-tag-b9841e86bf8b "Para etiqueta picture en HTML")
-
-[Responsive](https://www.youtube.com/watch?v=Km_Fug5Xs5w&t=94s "Responsive")
-
-[Responsive](https://www.youtube.com/watch?v=yUfcpPkOajA)
-
-cursos de JS con proyectos https://www.freecodecamp.org/
-Formato de botones: https://markodenic.com/tools/buttons-generator/
-Estilo a checkbox https://desarrolloweb.com/articulos/estilos-css-campos-checkbox
-Tip usen un simulador para probar su responsive: https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk
-Video de métodos de arreglo: https://www.youtube.com/watch?v=bkgXlQp5hbI
-https://colormagic.app/ paleta de colores
-https://color.adobe.com/explore paleta de colores en función de tu diseño previsto!!!
-Estudiar JS https://www.freecodecamp.org/espanol/learn/javascript-algorithms-and-data-structures/basic-javascript/comment-your-javascript-code
-Guia de estilos botón de Google: https://developers.google.com/identity/branding-guidelines?hl=es-419#matching
-Yo encontré esto dentro de la documentación "material design" que viene el Readme. https://www.figma.com/file/PAesr5DeTSGOucsrlExowG/Figma-icons-(Community)?type=design&node-id=1302-1528&mode=design&t=qP12W0hR2qIywrDt-0
-
-
-
-
-
-
-

@@ -66,7 +66,7 @@ btnBuscar.addEventListener('click', () => {
   const valorBusqueda = busquedaPersonaje.value.trim();
   resultado.textContent = '';
   
-  if (valorBusqueda === '') {
+  if (valorBusqueda === '') { /*if es una setencia*/
     resultado.style.display='block';
   } else {
     const ejecutarFiltrar = filtrar(data.breaking_bad, busquedaPersonaje.value);
@@ -116,7 +116,7 @@ btnProcesar.addEventListener("click", ()=>{
   const ejecutarEncontrar = encontrar(data.breaking_bad);
   if (calculoContainer.style.display === "block") {
     calculoContainer.style.display = "none";}
-  getData([ejecutarEncontrar]) /*se está usando la función getData inicial para generar la carta aleatoria la función encontrar en data.js*/
+  getData([ejecutarEncontrar]) /*Expresión (genera un valor) compuesta de varias sentencias */ /*se está usando la función getData inicial para generar la carta aleatoria la función encontrar en data.js*/
 });
 
 // function PlayAudio() {
